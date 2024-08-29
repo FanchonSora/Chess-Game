@@ -1,3 +1,26 @@
 body {
     background-color: #302e2b;
 }
+
+#root{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.squareRow{
+    display: flex;
+} 
+
+.square{
+    width: 76px;
+    height: 75px;
+}
+
+.white{
+    background-color: #EEEED2;
+}
+
+.black{
+    background-color: #769656;
+}

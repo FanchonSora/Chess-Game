@@ -1,2 +1,5 @@
-import {Greet} from "./Data/data.js";
-    Greet();
+import { initGame } from "./Data/data";
+import { initGameRender } from "./.vscode/Render/main";
+
+
+initGameRender(initGame());
