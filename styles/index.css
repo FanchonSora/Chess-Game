@@ -24,3 +24,8 @@ body {
 .black{
     background-color: #769656;
 }
+
+.piece{
+    width: 100%;
+    cursor: pointer;
+}
